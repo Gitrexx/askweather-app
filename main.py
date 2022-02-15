@@ -36,5 +36,3 @@ def main():
     }
 
     return Response(json.dumps(resp), status=200, content_type="application/json")
-
-app.run(host='0.0.0.0', port=5000, debug=True)
